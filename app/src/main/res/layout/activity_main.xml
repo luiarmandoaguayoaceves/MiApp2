@@ -12,9 +12,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="Quimica"
+        android:hint="@string/txt_quimica_String"
         android:inputType="number"
+        android:textColorHint="#78909C"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_num2" />
@@ -25,9 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="Matematicas"
+        android:hint="@string/txt_matematicas_String"
         android:inputType="number"
+        android:textColorHint="#78909C"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_status" />
@@ -38,9 +42,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
+        android:autofillHints=""
         android:ems="10"
-        android:hint="Fisica"
+        android:hint="@string/txt_fisica_String"
         android:inputType="number"
+        android:textColorHint="#78909C"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_num1" />
@@ -51,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
-        android:text="Estatus del Alumno"
+        android:text="@string/txt_view_String"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -63,7 +69,8 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:onClick="promedio"
-        android:text="Evaluar"
+        android:text="@string/boton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_num3" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_num3"
+        tools:ignore="UsingOnClickInXml" />
 </androidx.constraintlayout.widget.ConstraintLayout>
